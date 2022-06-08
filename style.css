@@ -1,0 +1,171 @@
+
+
+/* index */
+@font-face {
+    font-family: mi fuente;
+    src: url(fontos/GlacialIndifference-Regular.otf);
+}
+
+body{
+    background-color: white;
+}
+
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 220px;
+    height: 94px;
+}
+
+
+h1{
+    font-family:  "mi fuente";
+    text-align: center;
+    text-decoration:solid
+}
+
+h2{
+    font-family: "mi fuente";
+    color: blueviolet;
+    text-align: center;
+}
+
+
+#fila1{
+display: flex;
+justify-content:space-around;
+
+}
+
+#fila2{
+    display: flex;
+    justify-content:space-around;
+    
+    
+}
+    
+#fila3{
+    display: flex;
+    justify-content:space-around;
+}
+
+
+
+/* footer */
+p{
+    font-family: "mi fuente";
+    color: blueviolet;
+    text-align: center;
+    font-size: 20px;
+}
+/* footer */
+/* index */
+
+/* categoria */
+
+
+.categoria{
+    width: 250px;
+    height: 200px;
+}
+
+
+#babyShower{
+    display: flex;
+    justify-content:space-around;
+
+}
+
+.cardbaby{
+    width: 250px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.cardbaby:hover .categoria{
+    transform: scale(1.1);
+}
+
+.categoria{
+    transition:800ms
+}
+
+
+#cumpleanos{
+    display: flex;
+    justify-content:space-around;
+
+}
+
+.cumpleanos{
+    width: 250px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.cumpleanos:hover .categoria{
+    transform: scale(1.1);
+}
+
+.categoria{
+    transition:1000ms
+}
+
+#bautizo{
+    display: flex;
+    justify-content:space-around;
+
+}
+
+.bautizo{
+    width: 250px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.bautizo:hover .categoria{
+    transform: scale(1.1);
+}
+
+#boda{
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 20px;
+
+}
+
+.boda{
+    width: 250px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.boda:hover .categoria{
+    transform: scale(1.1);
+}
+
+
+
+
+
+/* mail/contacto */
+address{
+    font-family: "mi fuente";
+    text-align: center;
+    color: blueviolet;
+}
+/* mail/contacto*/
+
+
+/* responsive  */
+
+@media screen and (max-width: 1220px) {
+    .header-contenedor, 
+    .main-contenedor, 
+    .footer-contenedor{
+        max-width: 1000px;
+        padding: 0 20px;
+    }
+}
+

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <!--aca inicia las rutas de estilos-->
+        <link rel="stylesheet" href="style.css">
+    <title>segunda entrega</title>
+</head>
+<body>
+ <!--comienza el nav-->
+ <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="categoria.html">Categoria</a>
+          </li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="articuos.html">Articulos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="clientesmoralu.html">Clientes Moralu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contacto.html">Contacto</a>
+        </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Mas
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Como hacer tu pedido</a></li>
+              <li><a class="dropdown-item" href="#">Favoritos</a></li>
+              <li><a class="dropdown-item" href="#">Tendencias</a></li>
+            </ul>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+    </div>
+  </nav>
+  <!--cierra el nav-->
+<!--comienza form-->    
+<form>
+ <fieldset id="fondo">
+     <label>Nombre:</label>
+     <input type required="text" name="nombre"><br><br>
+     <label for="apellido">Apellido:</label>
+     <input type required="text" name="apellido"><br><br>
+     <label for="mail">Mail:</label>
+     <input type required="mail" name="mail">
+ <fieldset>
+  <legend>Elige un Barrio</legend>
+     <select name="barrio">
+         <option value="opcion1">Ciudad de Nieva</option>
+         <option value="opcion2">Centro</option>
+         <option value="opcion3">Los Perales</option>
+         <option value="opcion4">San Pedrito</option>
+         <option value="opcion5">Malvinas</option>
+         <option value="opcion6">Chijra</option>
+         <option value="opcion7">Bajo Gorriti</option>
+         <option value="opcion8">Cuyaya</option>
+         <option value="opcion9">Palpala</option>
+         <option value="opcion10">Belgrano</option>
+         <option value="opcion11">Alto Comedero</option>
+         <option value="opcion12">Almte Brown</option>
+         <option value="opcion13">Huaico</option>
+         <option value="opcion14">Reyes</option>
+      </select><br><br>
+ </form>
+ <form>
+ <label for="consultanos">Consultanos:</label><br>
+ <textarea name="consultanos" id="" cols="30" rows="10"></textarea>
+ <br><br>
+ <button type="submit">Enviar Consulta</button><br><br>
+ <button type="reset">Borrar</button>
+ <section class="form-register">
+     <h3>Formulario de Registro</h3>
+     <input class="controls" type="email" name="correo" id="correo" placeholder="ingrese su correo">
+     <input class="controls" type="password" name="correo" id="correo" placeholder="ingrese su contraseña">
+     <p>Estoy de acuerdo con <a href="#">Terminos y condiciones</a></p>
+     <input class="botons" type="submit" value="Registrar">
+     <p><a href="#">ya tengo cuenta?</a></p>
+ </form>
+ </section>
+ </fieldset>
+<!-- formulario2-- -->
+
+<!--comienza el footer-->
+<footer>
+    <address>
+       juanmanueldalbes@gmail.com
+    </address>
+    <p>Copyright © 1988-2022 juan manuel dalbes, todos los derechos reservados.</p>
+ </footer>
+<!--termina el footer-->
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"crossorigin="anonymous"></script>
+
+</body>
+</html>
