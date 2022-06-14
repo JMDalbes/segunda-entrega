@@ -1,0 +1,353 @@
+
+
+/* index */
+@font-face {
+    font-family: mi fuente;
+    src: url(fontos/GlacialIndifference-Regular.otf);
+}
+
+body{
+    background-color: white;
+}
+
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 220px;
+    height: 94px;
+}
+
+
+h1{
+    font-family:  "mi fuente";
+    text-align: center;
+    text-decoration:solid
+}
+
+h2{
+    font-family: "mi fuente";
+    color: blueviolet;
+    text-align: center;
+}
+
+
+#fila1{
+display: flex;
+justify-content:space-around;
+
+}
+
+#fila2{
+    display: flex;
+    justify-content:space-around;
+    
+    
+}
+    
+#fila3{
+    display: flex;
+    justify-content:space-around;
+}
+
+
+
+/* footer */
+p{
+    font-family: "mi fuente";
+    color: blueviolet;
+    text-align: center;
+    font-size: 20px;
+}
+/* footer */
+/* index */
+
+/* categoria */
+
+
+.categoria{
+    width: 250px;
+    height: 200px;
+}
+
+
+#babyShower{
+    display: flex;
+    justify-content:space-around;
+
+}
+
+.cardbaby{
+    width: 250px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.cardbaby:hover .categoria{
+    transform: scale(1.1);
+}
+
+.categoria{
+    transition:800ms
+}
+
+
+#cumpleanos{
+    display: flex;
+    justify-content:space-around;
+
+}
+
+.cumpleanos{
+    width: 250px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.cumpleanos:hover .categoria{
+    transform: scale(1.1);
+}
+
+.categoria{
+    transition:1000ms
+}
+
+#bautizo{
+    display: flex;
+    justify-content:space-around;
+
+}
+
+.bautizo{
+    width: 250px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.bautizo:hover .categoria{
+    transform: scale(1.1);
+}
+
+#boda{
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 20px;
+
+}
+
+.boda{
+    width: 250px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.boda:hover .categoria{
+    transform: scale(1.1);
+}
+
+/* categoria */
+
+/* articulos */
+
+.tamano{
+    width: 100%;
+    height: auto;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  .b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+
+  .b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+  }
+
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+
+  .nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
+
+  .nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+.articulos{
+    width: 95%;
+   
+
+
+}
+
+
+
+.row{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+.columna{
+    flex: 25%;
+    padding: 5px;
+}
+
+.columna .articulos{
+    margin-top: 5px;
+
+}
+
+
+
+
+fieldset{
+    width: 400px;
+    background-color: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: "mi fuente";
+    color: white;
+}
+
+input{
+    width: 100%;
+    background-color: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: "mi fuente";
+    font-size: 18px;
+}
+
+legend{
+    font-family: "mi fuente";
+    color: blueviolet;
+    font-size: larger;
+}
+
+textarea{
+    background-color: #24303c
+}
+
+
+
+label{
+    font-family: "mi fuente";
+    font-size: large;
+    color: blueviolet;
+}
+
+.form-register{
+    width: 400px;
+    background-color: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: "mi fuente";
+    color: white;
+
+}
+
+.form-register h3{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.controls{
+    width: 100%;
+    background-color: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: "mi fuente";
+    font-size: 18px;
+}
+
+.form-Registro{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.form-Registro{
+    color: white;
+    text-decoration: none;
+}
+
+.form-Registro a {
+    color: white;
+    text-decoration: underline;
+}
+
+.form-Registro .botons{
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin:  16px 0;
+    font-size: 16px;
+
+}
+
+
+
+
+/* mail/contacto */
+address{
+    font-family: "mi fuente";
+    text-align: center;
+    color: blueviolet;
+}
+/* mail/contacto*/
+
+
+/* responsive  */
+
+@media screen and (max-width: 1220px) {
+    .header-contenedor, 
+    .main-contenedor, 
+    .footer-contenedor{
+        max-width: 1000px;
+        padding: 0 20px;
+    }
+}
